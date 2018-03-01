@@ -1,0 +1,36 @@
+GIT NOTES
+
+git add .
+
+git status
+
+git commit -m "write and link t2 blog"
+
+git push origin master
+This command specifies that you are pushing to the master branch (the branch on Bitbucket) on origin (the Bitbucket server).
+
+
+
+
+git clone <URL>
+Copy files from repository to local
+
+git branch future-plans
+create a branch
+
+git branch
+checking what branch you are currently on
+the asterisk/star is the current branch
+
+
+
+git merge future-plans
+Merge changes from the future-plans branch into the master branch. 
+
+git branch -d future-plans
+Deleted branch future-plans 
+
+
+git checkout -b tidying
+Switched to a new branch 'tidying'
+
