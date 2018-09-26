@@ -43,8 +43,8 @@ GenyMotion: Android emulator
 | Login, register & users db | Users table | Refer to auth exercise | Refer to exercise | Refer to exercise |
 | Selecting desired charities | Charities, CharitiesAndUsers table | GET, POST /users/:id/charities | ActiveCharities |
 | Homepage | Animals, AnimalsAndUsers tables | GET, POST /users/:id/animals. GET, POST /users/:id/cosmetics. GET, POST /animals/:id/cosmetics/ | UserPets, Amenities, Clock, ActivePet | UPDATE_ACTIVE_PETS, FILL_WATER, FILL_FOOD, REDUCE_WATER, REDUCE_FOOD, UPDATE_ENTER_TIME, UPDATE_EXIT_TIME |
-| News | News table | GET /events | EventsCarousel, ActiveNews |
-| Events | Events table | GET /events | EventsCarousel, ActiveEvent |
+| News | News table | GET /events | EventsCarousel, ActiveNews | UPDATE_ACTIVE_NEWS |
+| Events | Events table | GET /events | EventsCarousel, ActiveEvent | UPDATE_ACTIVE_EVENTS |
 | Store & "microtransactions" | Cosmetics, CosmeticsAndUsers, CosmeticsAndAnimals | GET /store/inventory. GET, POST /users/:id/cosmetics. GET, POST /animals/:id/cosmetics/ | StoreCarousel, ActiveStoreCarousel, ActiveItem |
 
 
