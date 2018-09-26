@@ -46,6 +46,8 @@ GenyMotion: Android emulator
 | News | News table | GET /events | EventsCarousel, ActiveNews | UPDATE_ACTIVE_NEWS |
 | Events | Events table | GET /events | EventsCarousel, ActiveEvent | UPDATE_ACTIVE_EVENTS |
 | Store & "microtransactions" | Cosmetics, CosmeticsAndUsers, CosmeticsAndAnimals | GET /store/inventory. GET, POST /users/:id/cosmetics. GET, POST /animals/:id/cosmetics/ | StoreCarousel, ActiveStoreCarousel, ActiveItem |
+| Rules page | 
+| 3 starter pets | Animals, AnimalsAndUsers tables |
 
 
 
