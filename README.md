@@ -38,8 +38,8 @@ GenyMotion: Android emulator
 
 ## Technical Requirements
 
-| MVP | DB Tables | APIs | Reducers |
-|-----|-----------|------|----------|
+| MVP | DB Tables | APIs | Reducers | Actions |
+|-----|-----------|------|----------|---------|
 | Login, register & users db | Users table | Refer to auth exercise | Refer to exercise | Refer to exercise |
 | Selecting desired charities | Charities, CharitiesAndUsers table | GET, POST /users/:id/charities | ActiveCharities |
 | Homepage | Animals, AnimalsAndUsers tables | GET, POST /users/:id/animals. GET, POST /users/:id/cosmetics. GET, POST /animals/:id/cosmetics/ | UserPets, Amenities, Clock, ActivePet |
