@@ -37,7 +37,7 @@ GenyMotion: Android emulator
 - User settings page (chosen charities and percentages, chosen news and events filter level, etc)
 
 ## Technical Requirements
-
+/***
 | MVP | DB Tables | APIs | Reducers |
 | --- | --- | --- | --- | --- |
 | Login, register & users db | Users table | Refer to auth exercise | Refer to exercise | Refer to exercise |
@@ -48,6 +48,7 @@ GenyMotion: Android emulator
 | Store & "microtransactions" | Cosmetics, CosmeticsAndUsers, CosmeticsAndAnimals | GET /store/inventory. GET, POST /users/:id/cosmetics. GET, POST /animals/:id/cosmetics/ | StoreCarousel, ActiveStoreCarousel, ActiveItem |
 | Rules page |   |   |   |
 | 3 starter pets | Animals, AnimalsAndUsers tables |   |   |
+***/
 
 
 | Stretch | DB Tables | APIs | Reducers | Actions |
